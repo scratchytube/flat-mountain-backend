@@ -19,7 +19,7 @@ puts 'Creating damn rentals'
     Rental.create!(price: Faker::Number.number(digits: 2), sport: "SnowBoarding", available: Faker::Boolean.boolean, age: Faker::Number.number(digits: 2))
 end
 
-puts "leme get sum slopes"
+puts "lemme get sum slopes"
 10.times do 
     Slope.create!(difficulty: "very very difficult", altitude: Faker::Number.number(digits: 6), name: Faker::Mountain.name )
 end
