@@ -1,4 +1,4 @@
-class Api::v1::RentalsController < ApplicationController
+class Api::V1::RentalsController < ApplicationController
     def index
         @rentals = Rental.all
         render json: @rentals

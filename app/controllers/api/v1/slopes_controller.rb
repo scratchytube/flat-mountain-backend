@@ -1,4 +1,4 @@
-class Api::v1::SlopesController < ApplicationController
+class Api::V1::SlopesController < ApplicationController
     
     def index
         @slopes = Slope.all
@@ -9,5 +9,5 @@ class Api::v1::SlopesController < ApplicationController
         @slope = Slope.find(params[:id])
         render json: @slope 
     end
-    
+
 end
