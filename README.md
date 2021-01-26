@@ -5,20 +5,7 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+set the Rental and the Slope fetch in app
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+send down the arrays of data as props into the rental and slopes card
+send down the arrays of data as props into the formappt and map over them for each

@@ -28,3 +28,4 @@ puts "Appointments plz"
 3.times do
     Appointment.create!(date: Faker::Date.forward(days: 23), rental_id: Rental.all.sample.id, slope_id: Slope.all.sample.id, user_id: User.all.sample.id,  )
 end
+
