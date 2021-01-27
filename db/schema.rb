@@ -17,11 +17,14 @@ ActiveRecord::Schema.define(version: 2021_01_23_193944) do
 
   create_table "appointments", force: :cascade do |t|
     t.date "date"
-    t.integer "rental_id"
-    t.integer "slope_id"
-    t.integer "user_id"
+    t.bigint "user_id"
+    t.bigint "rental_id"
+    t.bigint "slope_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["rental_id"], name: "index_appointments_on_rental_id"
+    t.index ["slope_id"], name: "index_appointments_on_slope_id"
+    t.index ["user_id"], name: "index_appointments_on_user_id"
   end
 
   create_table "rentals", force: :cascade do |t|

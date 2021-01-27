@@ -28,6 +28,6 @@ class Api::V1::AppointmentsController < ApplicationController
     private
 
     def appointment_params
-        params.require(:appointment).permit(:date, :rental_id, :slope_id, :user_id, :name, :slope, :gearRental, :altitude, :difficulty)
+        params.require(:appointment).permit(:date, :user, :rental, :slope)
     end
 end
