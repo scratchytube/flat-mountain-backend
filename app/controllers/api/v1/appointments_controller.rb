@@ -16,6 +16,7 @@ class Api::V1::AppointmentsController < ApplicationController
 
     def create
         @appointment = Appointment.create(appointment_params)
+        logger.debug "created appointment obj: #{@appointment.attributes.inspect}"
         render json: @appointment
     end
 
@@ -24,10 +25,17 @@ class Api::V1::AppointmentsController < ApplicationController
         @appointment.update(appointment_params)
         render json: @appointment
     end
+    
+    def destroy
+        @appointment = Appointment.find(params[:id])
+        @appointment.destroy
+        render json: @appointment
+    end
+
 
     private
 
     def appointment_params
-        params.require(:appointment).permit(:date, :user, :rental, :slope)
+        params.require(:appointment).permit(:date, :user_id, :rental_id, :slope_id)
     end
 end
