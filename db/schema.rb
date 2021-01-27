@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2021_01_23_193944) do
 
   create_table "appointments", force: :cascade do |t|
     t.date "date"
+    t.boolean "confirm"
     t.bigint "user_id"
     t.bigint "rental_id"
     t.bigint "slope_id"

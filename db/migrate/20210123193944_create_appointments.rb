@@ -2,6 +2,7 @@ class CreateAppointments < ActiveRecord::Migration[6.0]
   def change
     create_table :appointments do |t|
       t.date :date
+      t.boolean :confirm
       t.belongs_to :user
       t.belongs_to :rental
       t.belongs_to :slope
