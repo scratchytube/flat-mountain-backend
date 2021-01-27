@@ -15,7 +15,7 @@ class Api::V1::AppointmentsController < ApplicationController
     end
 
     def create
-        @appointment = Appointment.create(appointment_params)
+        @appointment = Appointment.create!(appointment_params)
         logger.debug "created appointment obj: #{@appointment.attributes.inspect}"
         render json: @appointment
     end

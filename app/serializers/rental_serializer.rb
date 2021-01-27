@@ -1,3 +1,3 @@
 class RentalSerializer < ActiveModel::Serializer
-  attributes :id, :price, :sport, :available, :age
+  attributes :id,:sport, :available, :image
 end

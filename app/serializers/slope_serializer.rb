@@ -1,3 +1,3 @@
 class SlopeSerializer < ActiveModel::Serializer
-  attributes :id, :difficulty, :altitude, :name
+  attributes :id, :difficulty, :altitude, :name, :image
 end

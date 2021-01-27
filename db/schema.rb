@@ -29,10 +29,9 @@ ActiveRecord::Schema.define(version: 2021_01_23_193944) do
   end
 
   create_table "rentals", force: :cascade do |t|
-    t.integer "price"
     t.string "sport"
     t.boolean "available"
-    t.integer "age"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -41,6 +40,7 @@ ActiveRecord::Schema.define(version: 2021_01_23_193944) do
     t.string "difficulty"
     t.string "altitude"
     t.string "name"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -4,7 +4,7 @@ class CreateSlopes < ActiveRecord::Migration[6.0]
       t.string :difficulty
       t.string :altitude
       t.string :name
-      
+      t.string :image
 
       t.timestamps
     end
