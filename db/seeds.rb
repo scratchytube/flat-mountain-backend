@@ -94,6 +94,30 @@ slopes = [
         altitude: "1500",
         difficulty: "Incredibly Hard",
         image: "https://10c9rz12yp4b46gr6a2oxgub-wpengine.netdna-ssl.com/wp-content/uploads/JacksonHolecorbets_2-681x1024.jpg"
+    },
+    {
+        name: "Stay Home Slope",
+        altitude: "1500",
+        difficulty: "Incredibly Hard",
+        image: "https://www.snowskool.com/uploads/images/How_to_Snowboard_on_Steeps_and_Steep_Terrain-min.jpg"
+    },
+    {
+        name: "IDK Cliff",
+        altitude: "1500",
+        difficulty: "Incredibly Hard",
+        image: "https://www.skiolympic.com/IMG/jpg/557.jpg"
+    },
+    {
+        name: "SteeperMcSteeperson Cliff",
+        altitude: "1500",
+        difficulty: "Incredibly Hard",
+        image: "https://c.stocksy.com/a/uNM200/z9/562706.jpg"
+    },
+    {
+        name: "Dont Do This Slope",
+        altitude: "1500",
+        difficulty: "Incredibly Hard",
+        image: "https://images.pexels.com/photos/848599/pexels-photo-848599.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
     }
     
 ]
