@@ -55,25 +55,25 @@ slopes = [
         name: "Flat Mountain",
         altitude: "1600",
         difficulty: "medium",
-        image: "https://www.snowbasin.com/images/uploads/gallery/Snowbasin_2020-21_Winter_Trail_Map.jpg"
+        image: "https://travel.home.sndimg.com/content/dam/images/travel/fullrights/2019/12/4/0/CI_Grant_Gunderson_CMH_Canada_Scary_Ski_Slopes.jpg.rend.hgtvcom.966.644.suffix/1575495169102.jpeg"
     },
     {
         name: "June Mountain",
         altitude: "1480",
         difficulty: "medium",
-        image: "https://res.cloudinary.com/liftopia/image/upload/c_fit,d_defaults:default_logo_1.png,f_auto,h_980,q_auto,w_980/v1/production/trail_maps/1e780bf8bae3edaa45d94bd48b38b0f2.jpg"
+        image: "https://travel.home.sndimg.com/content/dam/images/travel/fullrights/2019/12/4/0/CI_Kate_Abraham_Squaw_Valley_Scary_Ski_Slopes.jpg.rend.hgtvcom.966.644.suffix/1575495172556.jpeg"
     },
     {
         name: "White Mountain",
         altitude: "1800",
         difficulty: "Very very very hard",
-        image: "https://whiteface.com/wp-content/uploads/sites/3/2020/09/WFmap-with-Chevy.jpg"
+        image: "http://www.skimag.com/wp-content/uploads/sites/13/2018/10/christmas-chute-.jpg"
     },
     {
-        name: "Jackson Hole",
+        name: "Jackson Pole",
         altitude: "1500",
-        difficulty: "Easy Peasy",
-        image: "https://www.jacksonhole.com/images/maps/2056-WinterTrailMap.FINAL2020.21.jpg"
+        difficulty: "Incredibly Hard",
+        image: "https://10c9rz12yp4b46gr6a2oxgub-wpengine.netdna-ssl.com/wp-content/uploads/JacksonHolecorbets_2-681x1024.jpg"
     }
     
 ]
