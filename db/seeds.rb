@@ -21,24 +21,44 @@ puts 'Creating damn rentals'
 
 rentals = [
     {
-        sport: "Mens Small Snowboarding",
-        available: true,
+        sport: "Mens Small Jacket",
         image: "https://ridestore.imgix.net/catalog/product//E/8/E8399_201.JPG?fit=max&q=90&dpr=1&usm=15&auto=format&w=679"
     },
     {
-        sport: "Mens Large Snowboarding",
-        available: true,
+        sport: "Mens Large Jacket",
         image: "https://ridestore.imgix.net/catalog/product//E/8/E8389_100.JPG?fit=max&q=90&dpr=1&usm=15&auto=format&w=679"
     },
     {
-        sport: "Womens small Snowboarding",
-        available: true,
+        sport: "Womens Small Jacket",
         image: "https://ridestore.imgix.net/catalog/product//E/8/E8467_100.jpg?fit=max&q=70&dpr=1&usm=15&auto=format&w=349"
     },
     {
-        sport: "Womens Large Snowboarding",
-        available: true,
+        sport: "Womens Large Jacket",
         image: "https://ridestore.imgix.net/catalog/product//E/8/E8184_100.jpg?fit=max&q=70&dpr=1&usm=15&auto=format&w=349"
+    },
+    {
+        sport: "Womens Small Pants",
+        image: "https://ridestore.imgix.net/catalog/product///e/8/e8381_1_1.jpg?fit=max&q=70&dpr=1&usm=15&auto=format&w=276"
+    },
+    {
+        sport: "Womens Large Pants",
+        image: "https://ridestore.imgix.net/catalog/product///e/8/e8380_1_1.jpg?fit=max&q=70&dpr=1&usm=15&auto=format&w=276"
+    },
+    {
+        sport: "Mens Small Pant",
+        image: "https://ridestore.imgix.net/catalog/product///e/8/e8357_1_1.jpg?fit=max&q=90&dpr=1&usm=15&auto=format&w=533"
+    },
+    {
+        sport: "Mens Large Pants",
+        image: "https://ridestore.imgix.net/catalog/product///e/8/e8528_1_1.jpg?fit=max&q=70&dpr=1&usm=15&auto=format&w=502"
+    },
+    {
+        sport: "Full Kit Womens",
+        image: "https://ridestore.imgix.net/catalog/product///e/8/e8515_duplicate_1_100_1.jpg?fit=max&q=70&dpr=1&usm=15&auto=format&w=276"
+    },
+    {
+        sport: "Full Kit Mens",
+        image: "https://ridestore.imgix.net/catalog/product///e/8/e8220_duplicate_1_100_1.jpg?fit=max&q=70&dpr=1&usm=15&auto=format&w=276"
     }
     
 ]
